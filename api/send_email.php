@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to_email = "";
+    $to_email = "salmanidanish202@gmail.com";
     $subject = $_POST['subject'];
     $message = "Year: " . $_POST['year'] . "\n" .
                "Maker: " . $_POST['maker'] . "\n" .
@@ -23,4 +23,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Error: Method not allowed.";
 }
-?>
